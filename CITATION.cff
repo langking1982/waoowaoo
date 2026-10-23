@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both this derivative and the original waoowaoo by waooAI."
+title: "waoowaoo AI Studio (derivative)"
+authors:
+  - alias: "langking1982"
+    website: "https://github.com/langking1982"
+type: software
+repository-code: "https://github.com/langking1982/waoowaoo"
+abstract: >-
+  Industry AI film & video production agent platform (derivative of waooAI/waoowaoo), novel-to-video industrial pipeline with character, scene, storyboard and dubbing decomposition.
+keywords:
+  - "AI video"
+  - "short drama"
+  - "AI film production"
+  - "TypeScript"
+license: LicenseRef-Elastic-2.0
+date-released: "2026-10-23"
+preferred-citation:
+  type: software
+  title: "waoowaoo AI Studio (derivative) (original)"
+  authors:
+    - alias: "waooAI"
+  repository-code: "https://github.com/waooAI/waoowaoo"

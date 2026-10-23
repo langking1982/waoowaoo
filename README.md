@@ -1,3 +1,9 @@
+> [!NOTE]
+> **衍生声明**：本仓库是 [waooAI/waoowaoo](https://github.com/waooAI/waoowaoo) 的社区衍生升级版，
+> **鸣谢原作者 [waooAI](https://github.com/waooAI)** 的开源贡献。衍生改动见 [UPGRADES.md](UPGRADES.md)，
+> 完整出处与许可链见 [NOTICE.md](NOTICE.md)。
+> 许可构成不变：**Elastic License 2.0**（禁止把本软件作为托管/管理服务提供给第三方、禁止绕过许可密钥；本地自用与内部衍生无限制）。
+> 改动本身将以相同许可发布并保留全部原始声明。
 <p align="center">
   <a href="https://trendshift.io/repositories/22585?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-22585" target="_blank" rel="noopener noreferrer">
     <img src="https://trendshift.io/api/badge/trendshift/repositories/22585/daily" alt="waooAI%2Fwaoowaoo | Trendshift" width="250" height="55"/>
