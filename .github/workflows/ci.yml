@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install pnpm
+        run: npm install -g pnpm
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile || pnpm install
+      - name: Smoke checks
+        run: |
+          test -f LICENSE || { echo "LICENSE missing"; exit 1; }
+          test -f NOTICE.md || { echo "NOTICE.md missing"; exit 1; }
+          grep -q "derivative" NOTICE.md || { echo "attribution missing"; exit 1; }
+          echo "sanity OK"
